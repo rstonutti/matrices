@@ -35,7 +35,17 @@ for (let i = 0; i < fil_num; i++) {
     };
 };
 
+console.log('Matriz A')
+for (let i = 0; i < fil_num; i++) {
+    console.log(matriz_uno[i].join(' '));
+};
 
-console.log(matriz_uno)
-console.log(matriz_dos)
-console.log(matriz_resul)
+console.log('Matriz B')
+for (let i = 0; i < num; i++) {
+    console.log(matriz_dos[i].join(' '));
+};
+
+console.log('Matriz resultante')
+for (let i = 0; i < fil_num; i++) {
+    console.log(matriz_resul[i].join(' '));
+};
